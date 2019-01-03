@@ -7,7 +7,7 @@
 	 * @author Snir Sofer, waf.co.il
 	 * @copyright Copyright (c) 2019, Snir Sofer
 	 * @link https://github.com/SnirSofer/
-	 */
+	 */ 
 	function aes_encrypt($data, $key) {
 		// Remove the base64 encoding from our key
 		$encryption_key = base64_decode($key);
