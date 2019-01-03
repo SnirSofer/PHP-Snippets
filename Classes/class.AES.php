@@ -4,7 +4,7 @@
 	 * Date: 03/01/2019
 	 * AES Encryption PHP Class
 	 *
-	 * @author Snir Sofer, SecurePress.co.il
+	 * @author Snir Sofer, waf.co.il
 	 * @copyright Copyright (c) 2019, Snir Sofer
 	 * @link https://github.com/SnirSofer/
 	 */
