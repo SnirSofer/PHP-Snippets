@@ -20,7 +20,6 @@ foreach($mmdb_resources as $source => $edition) {
             unlink($workingpath.'/'.strtolower($source).'.tar');
 
             $it = new RecursiveDirectoryIterator($workingpath.'/'.$source);
-            $display = Array ( 'mmdb','mmdb2' );
             foreach(new RecursiveIteratorIterator($it) as $file)
             {
                 $filename = basename($file);
